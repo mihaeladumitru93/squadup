@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  overflow-y: auto;
+}
+.workshops {
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  background-color: black;
+  width: 100%;
+}
+.instructors img {
+  width: 450px;
+  height: auto;
+  padding: 10px;
+}
+.instructors img:hover {
+  border: 1px solid rgb(145, 195, 241);
+  box-shadow: 5px 5px 5px rgba(136, 42, 187, 0.5);
+}
+@media screen and (max-width: 455px) {
+  .instructors img {
+    width: 300px;
+    height: auto;
+  }
+}
