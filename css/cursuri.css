@@ -1,0 +1,27 @@
+body {
+  overflow-y: auto;
+  font-family: sans-serif;
+}
+
+.card-text {
+  color: black;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  word-spacing: 2px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.our-courses {
+  padding-top: 50px;
+}
+.card {
+  height: 100%;
+}
+.card:hover {
+  box-shadow: 0 10px 20px rgb(7, 84, 156);
+}
+.card-subtitle {
+  font-weight: 600;
+}

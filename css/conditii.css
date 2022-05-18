@@ -1,0 +1,38 @@
+body {
+  overflow-y: auto;
+}
+.conditii {
+  padding: 30px;
+  padding-left: 50px;
+}
+.conditii h1 {
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.conditii p {
+  padding: 10px;
+  font-size: 15px;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+}
+.conditii h3 {
+  padding: 10px;
+}
+.conditii p span {
+  color: rgb(119, 47, 167);
+  font-size: 16px;
+  font-weight: 600;
+}
+.conditii ul li {
+  font-family: sans-serif;
+  padding: 5px;
+  letter-spacing: 0.5px;
+}
+.conditii ul li span {
+  color: rgb(119, 47, 167);
+  font-size: 16px;
+  font-weight: 600;
+}

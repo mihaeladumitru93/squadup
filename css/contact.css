@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  overflow-y: auto;
+}
+.form-section {
+  background: linear-gradient(-55deg, rgb(221, 242, 241) 25%, #2d81a0 95%);
+}
+
+.cover {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+
+  font-family: sans-serif;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-size: 25px;
+
+  margin: auto;
+  width: 50%;
+}
+
+.contact-section {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+.contact-info i {
+  padding: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.contact-form {
+  max-width: 700px;
+  margin-right: 50px;
+}
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+.contact-form .text-box {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgb(114, 188, 248);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+.contact-form .text-box:first-child {
+  margin-right: 15px;
+}
+.contact-form textarea {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgb(114, 188, 248);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn {
+  float: right;
+  background: black;
+  color: rgb(228, 246, 252);
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form .send-btn:hover {
+  background: rgb(206, 219, 230);
+  color: black;
+  border: 1px solid black;
+}
+@media screen and (max-width: 950px) {
+  body {
+    overflow-y: auto;
+  }
+  .text {
+    font-size: 25px;
+  }
+  .contact-section {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .contact-info,
+  .contact-form {
+    margin: 10px 30px;
+  }
+  .contact-form .text-box {
+    width: 100%;
+  }
+}
