@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+}
+
+/* START HEADER */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: linear-gradient(-30deg, #1da3c5 15%, white 69%);
+  border-bottom: 2px double #1da3c5;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  color: black;
+  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 650;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* text-shadow: 1px 1px white; */
+}
+.logo img {
+  max-height: 50px;
+}
+.logo h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 33px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+.nav-links a:hover {
+  background: #1e7a91;
+  transition: 0.5s ease-in-out;
+  color: white;
+  padding: 5px;
+  border-radius: 10%;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+/* .burger.line2:hover {
+  transform: translateX(10px);
+} */
+@media screen and (max-width: 1024px) {
+  body {
+    overflow: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background: linear-gradient(-30deg, #f1fbff 15%, #1da3c5 59%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    z-index: 9999;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+.nav-active {
+  transform: translate(0%);
+  z-index: 9999;
+}
+/* END HEADER */
+/* start footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .social-icons,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+footer .social-icons li,
+footer .menu li {
+  list-style: none;
+}
+footer .social-icons li a {
+  font-size: 1.5em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+footer .social-icons li a:hover {
+  transform: translateY(-10px);
+}
+footer .menu li a {
+  font-size: 1em;
+  color: white;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+footer .menu li a:hover {
+  opacity: 1;
+}
