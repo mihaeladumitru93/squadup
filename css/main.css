@@ -99,7 +99,7 @@ nav {
     transform: translateX(0%);
     transition: transform 0.5s ease-in;
     z-index: 9999;
-    visibility: hidden;
+    display: none;
   }
 
   .burger {
@@ -109,7 +109,7 @@ nav {
 .nav-active {
   transform: translate(0%);
   z-index: 9999;
-  visibility: visible;
+  display: flex;
 }
 /* END HEADER */
 /* start footer */
