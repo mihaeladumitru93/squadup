@@ -22,9 +22,17 @@ body {
   background: rgb(195, 232, 253);
   color: white;
 }
-.box:hover {
-  height: 500px;
-}
+@media only screen and (max-width: 500) {
+  .box:hover, .box:active {
+    height: 400px;
+  };
+} 
+
+@media only screen and (min-width: 501px) {
+  .box:hover, .box:active {
+    height: 500px;
+  }
+} 
 .box .imgBx {
   position: absolute;
   top: 0;
