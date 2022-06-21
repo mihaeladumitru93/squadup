@@ -3,8 +3,8 @@ body {
 }
 /* start section video */
 .video-s video{
-  height: auto;
-  width: auto;
+  height: 100vh;
+  width: 100vw;
   object-fit: fill; 
   background-color: #000 !important;
 }
