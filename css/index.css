@@ -3,7 +3,7 @@ body {
 }
 /* start section video */
 .video-s video{
-  height: 100vh;
+  height: auto;
   width: 100%;
   object-fit: fill; 
   background-color: #000 !important;
