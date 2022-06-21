@@ -6,6 +6,7 @@ body {
   height: 100vh;
   width: 100%;
   object-fit: fill; 
+  background-color: #000 !important;
 }
 /* end section video */
 /* start section about us */
