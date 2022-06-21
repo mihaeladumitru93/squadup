@@ -96,7 +96,7 @@ body {
   }
 
   .box .imgBx img {
-    opacity: 1;
+    opacity: 1 !important;
   }
   .box:hover .imgBx img, .box:active .imgBx img {
     opacity: 1;
