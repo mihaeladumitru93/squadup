@@ -4,7 +4,7 @@ body {
 /* start section video */
 .video-s video{
   height: auto;
-  width: 100%;
+  width: auto;
   object-fit: fill; 
   background-color: #000 !important;
 }
