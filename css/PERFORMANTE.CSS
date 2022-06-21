@@ -45,7 +45,6 @@ body {
 }
 .box .imgBx img {
   max-width: 100%;
-  opacity: 0.5;
   transition: 0.5s;
 }
 .box:hover .imgBx img {
@@ -90,8 +89,16 @@ body {
     rgb(170, 227, 241)
   );
 }
+
 @media only screen and (max-width: 500px) {
   .box .content, .box:hover .content, .box:active .content {
+    opacity: 1;
+  }
+
+  .box .imgBx img {
+    opacity: 1;
+  }
+  .box:hover .imgBx img, .box:active .imgBx img {
     opacity: 1;
   }
 } 
@@ -102,6 +109,13 @@ body {
   }
 
   .box:hover .content {
+    opacity: 1;
+  }
+  
+  .box .imgBx img {
+    opacity: 0.5;
+  }
+  .box:hover .imgBx img {
     opacity: 1;
   }
 } 
